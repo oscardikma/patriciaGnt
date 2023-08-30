@@ -158,7 +158,7 @@ function return_Roi(tempo, valor, investimento) {
   let receita = tempo * valor;
   let calc = (receita - investimento) / investimento;
   let calc2 = calc * 100;
-  roi.innerText = calc2.toFixed(2)
+  roi.innerText = calc2.toFixed(2) + ' %'
 }
 
 
@@ -168,7 +168,7 @@ function return_Roi(tempo, valor, investimento) {
 /**calculo Pay back */
 function return_Payback(investimento, receita) {
   let valor = investimento / receita
-  payback.innerText = valor.toFixed(2)
+  payback.innerText = valor.toFixed(2)+ ' meses'
 }
 
 
