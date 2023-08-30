@@ -68,7 +68,7 @@ section{
     width: 100px;
     height: 100px;
     margin-left: 110rem;
-    background: url(../res/empresas/money.png), rgba(188, 15, 15, 0) 50% / cover no-repeat;
+    background: url(money.png), rgba(188, 15, 15, 0) 50% / cover no-repeat;
     flex-shrink: 0;
     cursor: pointer;
 }
